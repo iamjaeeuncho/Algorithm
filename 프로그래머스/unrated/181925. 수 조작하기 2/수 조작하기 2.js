@@ -1,6 +1,5 @@
 function solution(numLog) {
     var answer = '';
-    // return answer;
     
     for (let i = 0; i < numLog.length; i++) {
         if ((numLog[i-1] || 0) + 1 === numLog[i]) {
